@@ -3,6 +3,9 @@ html{
 }
 
 body{
+    background: url('../public/sayagata-400px.png'); /*Background courtesy of toptal.*/
     padding: 0;
     margin: 0;
 }
+
+
