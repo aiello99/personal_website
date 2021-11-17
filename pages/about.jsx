@@ -14,9 +14,9 @@ const about = () => {
         My experiences at UTM helped shape me into who I am today, and provided me with the ability
         to develop, design, and reason about software. It was here that I learned how to efficiently
         implement algorithms and data structures in my projects, but more importantly, it was also 
-        where I learned how to properly collaborate on software. Every project that I have collaborated
-        on was its own learning experience unto itself, as I learned how to use different programming languages
-        and technologies but also learning to overcome challenges (both technical and social). It was these
+        where I learned how to properly collaborate on software. Every project that I have collaborated with others on
+        served as its own unique learning experience. Not only did I learn different programming languages and technologies,
+        but I also learned how to overcome social and technical challenges that were present within each team. It was these
         projects that sparked my ambition to develop software and solve technical problems.
         <br/><br/>
         I one day hope to use my aptitude for programming and computer science to help the environment, and I am currently looking at ways
