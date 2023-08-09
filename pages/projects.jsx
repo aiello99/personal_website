@@ -33,7 +33,7 @@ const Projects = () => {
       imgSrc: connect4,
       content:
         'A version of Connect 4 made in Python using Pygame. I helped design and implement the underlying MVC architecture.',
-      link: 'https://github.com/aiello99',
+      link: 'https://github.com/osamaramihafez/c4',
     },
   ];
 
