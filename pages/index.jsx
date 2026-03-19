@@ -19,7 +19,7 @@ const home = () => {
       <a href="https://github.com/aiello99">
         <img border="0" alt="Github" src={github.src}/>
       </a>
-      <a href="https://drive.google.com/file/d/1aMDz9oRzA4Aks71epgERvPYrdLOLirlo/view?usp=sharing" download>
+      <a href="https://drive.google.com/file/d/1xfiXx5to5sbfw6P8KyejtU3ILFpj0bOF/view?usp=sharing" download>
         <img border="0" alt="Resume" src={cv.src}/>
       </a>
     </div>
