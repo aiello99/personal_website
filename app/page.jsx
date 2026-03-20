@@ -30,8 +30,8 @@ export default function Home() {
           <Image
             src="/mewithfish_cut.png"
             alt="Liam Aiello"
-            width={160}
-            height={160}
+            width={220}
+            height={220}
             className="relative rounded-full border-2 border-zinc-800 object-cover"
             priority
           />
