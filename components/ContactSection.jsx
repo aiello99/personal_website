@@ -2,14 +2,9 @@ import { Mail, MapPin } from 'lucide-react';
 import AnimatedSection from '@/components/AnimatedSection';
 import ContactForm from '@/components/ContactForm';
 
-export const metadata = {
-  title: 'Contact | Liam Aiello',
-  description: 'Get in touch with Liam Aiello.',
-};
-
-export default function Contact() {
+export default function ContactSection() {
   return (
-    <section className="mx-auto min-h-screen max-w-3xl px-6 pt-28 pb-20">
+    <section id="contact" className="mx-auto min-h-screen max-w-3xl px-6 py-20 scroll-mt-16">
       <AnimatedSection>
         <h1 className="mb-2 text-3xl font-bold tracking-tight sm:text-4xl">
           Get in{' '}

@@ -1,12 +1,5 @@
 import { GraduationCap, TreePine, Users } from 'lucide-react';
 import AnimatedSection from '@/components/AnimatedSection';
-import Button from '@/components/Button';
-
-export const metadata = {
-  title: 'About | Liam Aiello',
-  description:
-    'Learn about Liam Aiello — a software developer with a passion for the environment.',
-};
 
 const sections = [
   {
@@ -29,9 +22,9 @@ const sections = [
   },
 ];
 
-export default function About() {
+export default function AboutSection() {
   return (
-    <section className="mx-auto min-h-screen max-w-3xl px-6 pt-28 pb-20">
+    <section id="about" className="scroll-mt-16 mx-auto min-h-screen max-w-3xl px-6 py-20">
       <AnimatedSection>
         <h1 className="mb-2 text-3xl font-bold tracking-tight sm:text-4xl">
           A Tree Hugging{' '}
@@ -61,7 +54,12 @@ export default function About() {
       </div>
 
       <AnimatedSection delay={0.5} className="mt-14">
-        <Button path="/projects">See My Projects →</Button>
+        <a
+          href="#projects"
+          className="inline-flex items-center justify-center rounded-lg px-6 py-3 text-sm font-medium transition-all duration-300 cursor-pointer border border-zinc-700 text-zinc-300 hover:border-purple-400 hover:text-purple-400"
+        >
+          See My Projects →
+        </a>
       </AnimatedSection>
     </section>
   );

@@ -5,13 +5,13 @@ import NavBar from '@/components/NavBar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Liam Aiello | Software Developer',
+  title: 'Liam Aiello — Software Developer & Environmental Advocate',
   description:
-    'Portfolio of Liam Aiello — Software Developer and Environmental Advocate',
+    'Portfolio of Liam Aiello — software developer and environmental advocate based in Toronto.',
   openGraph: {
-    title: 'Liam Aiello | Software Developer',
+    title: 'Liam Aiello — Software Developer & Environmental Advocate',
     description:
-      'Portfolio of Liam Aiello — Software Developer and Environmental Advocate',
+      'Portfolio of Liam Aiello — software developer and environmental advocate based in Toronto.',
     type: 'website',
   },
 };

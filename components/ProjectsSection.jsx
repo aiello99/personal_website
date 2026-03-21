@@ -1,12 +1,6 @@
 import Card from '@/components/Card';
 import AnimatedSection from '@/components/AnimatedSection';
 
-export const metadata = {
-  title: 'Projects | Liam Aiello',
-  description:
-    'Explore projects by Liam Aiello — from compilers to distributed systems.',
-};
-
 const projects = [
   {
     title: 'Course Crunch',
@@ -42,9 +36,9 @@ const projects = [
   },
 ];
 
-export default function Projects() {
+export default function ProjectsSection() {
   return (
-    <section className="mx-auto min-h-screen max-w-5xl px-6 pt-28 pb-20">
+    <section id="projects" className="scroll-mt-16 mx-auto min-h-screen max-w-5xl px-6 py-20">
       <AnimatedSection>
         <h1 className="mb-2 text-3xl font-bold tracking-tight sm:text-4xl">
           My{' '}
